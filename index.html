@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Welcome!</title>
+    </head>
+    <body>
+        <h1>Hello world!</h1>
+        <p>This is a breakfast survey</p>
+        <!-- This form should POST to the senbreakfast route -->
+        <form action = '/sendbreakfast' method="Post">
+            <!-- This should get the breakfast that the user ate through a text box -->
+            <input type="text" name="breakfast" value="Enter what you ate for breakfast this morning"/>
+            <!-- When you hit submit, this should go to the sendbreakfast route -->
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>
